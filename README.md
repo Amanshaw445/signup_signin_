@@ -7,7 +7,7 @@
   
   <h2>Requirements</h2>
   <ul>
-    <li>Apache Server (e.g., XAMPP)</li>
+    <li>Apache Server</li>
     <li>MySQL Database</li>
     <li>PHP</li>
   </ul>
@@ -15,10 +15,9 @@
   <h2>Installation</h2>
   <ol>
     <li>Clone this repository to your local machine:</li>
-    <pre><code>git clone https://github.com/yourusername/your-repo.git</code></pre>
-    <li>Set up your Apache server (e.g., XAMPP) and MySQL database.</li>
-    <li>Create a new database and import the provided SQL schema file.</li>
-    <li>Configure your database credentials in the PHP code.</li>
+    <li>Set up your Apache server and MySQL database (i have used XAMPP).</li>
+    <li>Create a new SQL database.</li>
+    <li>Configure your database in the PHP code.</li>
     <li>Start your Apache server and access the project via a web browser.</li>
   </ol>
   
@@ -46,18 +45,4 @@
       </ul>
     </li>
   </ol>
-  
-  <h2>Contributing</h2>
-  <p>
-    Contributions are welcome! Feel free to fork this project and submit pull requests. Please make sure to follow our [Contributing Guidelines](CONTRIBUTING.md).
-  </p>
-  
-  <h2>License</h2>
-  <p>
-    This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-  </p>
-  
-  <h2>Contact</h2>
-  <p>
-    If you have any questions or issues, please contact [your email address].
-  </p>
+

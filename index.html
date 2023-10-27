@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient(to right, rgb(147,49,186),rgb(207,50,149),rgb(237,68,117) ,rgb(244,137,85));margin:0px;">
+  <h1>This is a representation of the page you will see after running the code on your local host. Please note that PHP is not supported on GitHub pages, so to experience all the functionality, you will need to clone this repository to your local machine.and delete the file "index.html"</h1>
+    <nav class="navbar">
+        <ul>
+            <!-- <li><a href="register.php">register</a></li> -->
+            <li><a href="login.php">login</a></li>
+        </ul>
+    </nav>
+    <div class="login-container">
+        <h2>Register here</h2>
+        <form action="" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <span class="error"><?php echo $username_err; ?></span>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <span class="error"><?php echo $password_err; ?></span>
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <span class="error"><?php echo $confirm_password_err; ?></span>
+
+            <button type="submit" class="login-button">Sign up</button>
+            <li class="already">
+                <p>Have an account already?</p>
+                <a href="login.php">Log in</a>
+            </li>
+        </form>
+    </div>
+</body>
+</html>
